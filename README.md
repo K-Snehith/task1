@@ -32,3 +32,27 @@ Source (if needed): [Titanic Dataset on Kaggle](https://www.kaggle.com/datasets/
 ### 1. Install dependencies:
 ```bash
 pip install pandas numpy seaborn matplotlib scikit-learn
+✅ Dataset Loaded Successfully!
+   PassengerId  Survived  ...  Cabin Embarked
+0            1         0  ...    NaN        S
+1            2         1  ...    C85        C
+2            3         1  ...    NaN        S
+3            4         1  ...   C123        S
+4            5         0  ...    NaN        S
+
+[5 rows x 12 columns]
+
+🔍 Missing values before cleaning:
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
